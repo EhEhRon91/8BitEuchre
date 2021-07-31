@@ -23,7 +23,7 @@ public class Hand : MonoBehaviour
     private bool canSpades = false;
 
     public Kitty kitty;
-    public TurnIndicator turn;
+    private TurnIndicator turn;
     private bool passedKitty = false;
     private bool passedGame = false;
 

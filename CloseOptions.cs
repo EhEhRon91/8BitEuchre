@@ -5,7 +5,8 @@ using UnityEngine;
 public class CloseOptions : MonoBehaviour
 {
     //panel to close
-    public GameObject panel;
+    private GameObject panel;
+
     // Start is called before the first frame update
     void Start()
     {

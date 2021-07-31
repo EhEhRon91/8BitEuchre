@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class ChangeBackgroundColour : MonoBehaviour
 {
-    public int colourID;
-    public Color colorToChange;
-    public GameObject background;
+    private int colourID;
+    private Color colorToChange;
+    private GameObject background;
     // Start is called before the first frame update
     void Start()
     {

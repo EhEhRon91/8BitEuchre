@@ -2,16 +2,16 @@
 using UnityEngine.UI;
 public class ScreenTransitionGame : MonoBehaviour
 {
-    public Image image;
-    public Color color;
+    private Image image;
+    private Color color;
     // Start is called before the first frame update
     void Start()
     {
         color = image.color;
     }
-    public float alphaVal = 1.0f;
-    public float speed = 2.0f;
-    public bool done = false;
+    private float alphaVal = 1.0f;
+    private float speed = 2.0f;
+    private bool done = false;
     // Update is called once per frame
     void Update()
     {

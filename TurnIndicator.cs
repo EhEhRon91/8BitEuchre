@@ -6,19 +6,19 @@ public class TurnIndicator : MonoBehaviour
     public float nonPlayerTurnTimerLimit = 1.0f;
     private float timer = 0.0f;
     public GameObject activeCard;
-    public int turnCounter = 0;
+    private int turnCounter = 0;
     public Trump trump;
     public Kitty kitty;
     public Toggle toggle;
     public Deck deck;
     public GameObject kittyObj;
 
-    public ScreenTransitionGame transition;
+    private ScreenTransitionGame transition;
 
-    public Deck.Card firstPlayedCard;
-    public Deck.Card secondPlayedCard;
-    public Deck.Card thirdPlayedCard;
-    public Deck.Card fourthPlayedCard;
+    private Deck.Card firstPlayedCard;
+    private Deck.Card secondPlayedCard;
+    private Deck.Card thirdPlayedCard;
+    private Deck.Card fourthPlayedCard;
     public Hand hand5;
     public GameObject endGamePanel;
     public List<Deck.Card> playedCards;
@@ -26,19 +26,19 @@ public class TurnIndicator : MonoBehaviour
     public Hand enemy1;
     public Hand parter;
     public Hand enemy2;
-    public bool hasFoundPlayedCard = false;
-    public Vector3 startRotation;
-    public float zRot = -90.0f;
-    public int counter = 0;
-    public bool firstGo = false;
+    private bool hasFoundPlayedCard = false;
+    private Vector3 startRotation;
+    private float zRot = -90.0f;
+    private int counter = 0;
+    private bool firstGo = false;
     public int startPosForHand;
-    public bool goingAlone = false;
-    public bool playerWon = false;
-    public bool enemyWon = false;
+    private bool goingAlone = false;
+    private bool playerWon = false;
+    private bool enemyWon = false;
     public WHO_MADE_ALONE whoMadeAlone = WHO_MADE_ALONE.NONE;
-    public float aloneChangeTimer = 0.0f;
-    public bool isFirstTime = false;
-    public bool setUpFirst = false;
+    private float aloneChangeTimer = 0.0f;
+    private bool isFirstTime = false;
+    private bool setUpFirst = false;
     public enum WHO_MADE_ALONE
     {
         NONE,
