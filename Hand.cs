@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
-    public Deck deck;
+    private Deck deck;
     public int handSize;
     public int handNum;
 
-    public List<Sprite> cardFaces;
+    private List<Sprite> cardFaces;
     public List<GameObject> cardObjects;
     public List<Deck.Card> hand = new List<Deck.Card>();
     public Vector3 position = new Vector3();
@@ -15,24 +15,24 @@ public class Hand : MonoBehaviour
 
     public bool handActive = false;
 
-    public Trump trump;
+    private Trump trump;
 
-    public bool canHearts = false;
-    public bool canDiamonds = false;
-    public bool canClubs = false;
-    public bool canSpades = false;
+    private bool canHearts = false;
+    private bool canDiamonds = false;
+    private bool canClubs = false;
+    private bool canSpades = false;
 
     public Kitty kitty;
     public TurnIndicator turn;
-    public bool passedKitty = false;
-    public bool passedGame = false;
+    private bool passedKitty = false;
+    private bool passedGame = false;
 
-    public int heartScore = 0;
-    public int diamondScore = 0;
-    public int spadeScore = 0;
-    public int clubScore = 0;
+    private int heartScore = 0;
+    private int diamondScore = 0;
+    private int spadeScore = 0;
+    private int clubScore = 0;
 
-    public int handPosition = 0;
+    private int handPosition = 0;
     public HANDPOSITION handPositionForGen;
     public List<Deck.Card> nonMatchingCardsKitty;
     public KITTYTRUMP kittyTrump;
