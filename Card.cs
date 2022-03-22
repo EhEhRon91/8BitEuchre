@@ -19,7 +19,7 @@ public class Card : MonoBehaviour
     public ScreenTransitionGame transition;
     public GameObject transitionObj;
 
-    //Can select card or nots
+    //Can select card or not
     public enum SELECTABLE
     {
         YES,
