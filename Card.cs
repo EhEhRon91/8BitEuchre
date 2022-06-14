@@ -3,7 +3,7 @@
 public class Card : MonoBehaviour
 {
 
-    //these are some cool variables
+    //these are some cool variables!
     private bool hasMoved = false;
     private bool hovered = false;
     private Vector3 cardPos;
