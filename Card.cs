@@ -3,6 +3,7 @@
 public class Card : MonoBehaviour
 {
 
+    //these are some cool variables!
     private bool hasMoved = false;
     private bool hovered = false;
     private Vector3 cardPos;
@@ -19,7 +20,7 @@ public class Card : MonoBehaviour
     public ScreenTransitionGame transition;
     public GameObject transitionObj;
 
-    //Can select card or nots
+    //Can select card or not
     public enum SELECTABLE
     {
         YES,

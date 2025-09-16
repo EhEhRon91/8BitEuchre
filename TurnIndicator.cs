@@ -14,7 +14,7 @@ public class TurnIndicator : MonoBehaviour
     public GameObject kittyObj;
 
     private ScreenTransitionGame transition;
-
+    //Add a comment
     private Deck.Card firstPlayedCard;
     private Deck.Card secondPlayedCard;
     private Deck.Card thirdPlayedCard;
