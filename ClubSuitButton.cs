@@ -7,7 +7,7 @@ public class ClubSuitButton : MonoBehaviour
     private Button button;
     private Trump trump;
 
-    // Start is called before the first frame update
+    // This is a test comment
     void Start()
     {
 
