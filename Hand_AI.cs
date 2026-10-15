@@ -5,7 +5,7 @@ public class Hand : MonoBehaviour
 {
     private Deck deck;
     public int handSize;
-    public int handNum;
+    public int handNum; // whatever
 
     private List<Sprite> cardFaces;
     public List<GameObject> cardObjects;
